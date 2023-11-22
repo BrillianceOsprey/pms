@@ -7,12 +7,12 @@
     </li>
   </ul>
   <a href="index3.html" class="navbar-brand">
-    <span class="brand-text font-weight-light">Clinic's Patient Management System - PHP </span>
-</a>
+    <span class="brand-text font-weight-light">Clinic's Patient Management System </span>
+  </a>
   <!-- Right navbar links -->
   <ul class="navbar-nav ml-auto">
     <li class="nav-item">
-    <div class="login-user text-light font-weight-bolder">Howdy, <?= $_SESSION['display_name'] ?>!</div>  
+      <div class="login-user text-light font-weight-bolder">Howdy, <?= $_SESSION['display_name'] ?>!</div>
     </li>
   </ul>
 </nav>
